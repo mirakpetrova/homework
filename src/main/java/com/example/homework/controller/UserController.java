@@ -1,15 +1,9 @@
 package com.example.homework.controller;
 
-import com.example.homework.dao.UserRepository;
 import com.example.homework.domain.impl.UserServiceImpl;
 import com.example.homework.model.User;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 public class UserController {
